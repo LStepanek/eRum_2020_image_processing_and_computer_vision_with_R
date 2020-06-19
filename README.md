@@ -1,2 +1,3 @@
-# eRum_2020_image_processing_and_computer_vision_with_R
-This
+# [eRum 2020] image processing and computer vision with R
+
+
