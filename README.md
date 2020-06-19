@@ -114,13 +114,17 @@ devtools::install_github(
 
 - Once you are done with that, please download the files containing weights for some deep neural networks. Store them somewhere on your local drive. Make sure you are able to address the paths to them in your codes.
 
-* [https://pjreddie.com/darknet/imagenet](https://pjreddie.com/darknet/imagenet)
-* [http://pjreddie.com/media/files/alexnet.weights](http://pjreddie.com/media/files/alexnet.weights)
-* [http://pjreddie.com/media/files/darknet.weights](http://pjreddie.com/media/files/darknet.weights)
-* [http://pjreddie.com/media/files/vgg-16.weights](http://pjreddie.com/media/files/vgg-16.weights)
-* [http://pjreddie.com/media/files/extraction.weights](http://pjreddie.com/media/files/extraction.weights
-* [http://pjreddie.com/media/files/extraction.weights](http://pjreddie.com/media/files/extraction.weights)
-* [http://pjreddie.com/media/files/darknet19_448.weights](http://pjreddie.com/media/files/darknet19_448.weights)
+  * [https://pjreddie.com/darknet/imagenet](https://pjreddie.com/darknet/imagenet)
+  * [http://pjreddie.com/media/files/alexnet.weights](http://pjreddie.com/media/files/alexnet.weights)
+  * [http://pjreddie.com/media/files/darknet.weights](http://pjreddie.com/media/files/darknet.weights)
+  * [http://pjreddie.com/media/files/vgg-16.weights](http://pjreddie.com/media/files/vgg-16.weights)
+  * [http://pjreddie.com/media/files/extraction.weights](http://pjreddie.com/media/files/extraction.weights
+  * [http://pjreddie.com/media/files/extraction.weights](http://pjreddie.com/media/files/extraction.weights)
+  * [http://pjreddie.com/media/files/darknet19_448.weights](http://pjreddie.com/media/files/darknet19_448.weights)
+  * [https://github.com/pjreddie/darknet/blob/master/cfg/yolov2-tiny-voc.cfg](https://github.com/pjreddie/darknet/blob/master/cfg/yolov2-tiny-voc.cfg)
+  * [https://pjreddie.com/media/files/yolov2-tiny-voc.weights](https://pjreddie.com/media/files/yolov2-tiny-voc.weights)
+  * [https://github.com/pjreddie/darknet/blob/master/cfg/yolov2.cfg](https://github.com/pjreddie/darknet/blob/master/cfg/yolov2.cfg)
+  * [https://pjreddie.com/media/files/yolov2.weights](https://pjreddie.com/media/files/yolov2.weights)
  
 We have checked that Bnosac's packages work appropriately on Windows computers. Linux systems are also recommended. We can't guarantee they will perform well on Macs.
 
