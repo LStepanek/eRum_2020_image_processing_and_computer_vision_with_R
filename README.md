@@ -75,7 +75,7 @@ BiocManager::install("EBImage")
   * Firstly, if you haven't installed Rtools yet, click on https://cran.r-project.org/bin/windows/Rtools/ and please download the installer based on your operation system version.
   * Then, if you haven't customized your config file `.Renviron` yet, copy and run the following command in R console
 
-```
+> > > > ```
 writeLines('PATH="${RTOOLS40_HOME}\\usr\\bin;${PATH}"', con = "~/.Renviron")
 ```
 
