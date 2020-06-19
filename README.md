@@ -16,9 +16,9 @@ In this workshop, we will revisit available packages such as magick, imager, EBI
 
 To make things even smoother, it would be great when you install the following R packages before the beginning of the workshop. We are using lots of packages we are neither authors nor maintainers of, so all the credits go to their original authors!
 
-(i) The following packages,
+- The following packages,
 
-`bmp`, `jpeg`, `png`, `magick`, `tesseract`, `imager`, `OpenImageR`, `BiocManager`, `dlib`, `devtools`, `remotes`
+`bmp`, `jpeg`, `png`, `magick`, `tesseract`, `imager`, `OpenImageR`, `BiocManager`, `dlib`, `devtools`, `remotes`,
 
 could be installed one by one in RStudio or using the code below,
 
@@ -64,14 +64,59 @@ invisible(
 ```
 
 
-(ii) The package "EBImage" is stored on Bioconductor rather than CRAN, so we need to install it following a kinda different code,
+- The package "EBImage" is stored on Bioconductor rather than CRAN, so we need to install it following a kinda different code,
 
 ```
 BiocManager::install("EBImage")
 ```
 
 
-(iii) The Bnosac's family of R packages for computer vision requires Rtools40, devtools, and installation from GitHub. Please see the attached code for details. You are also emphasized to download the folder with files containing weights for some deep neural networks somewhere to your local drive (information about proper paths to the files with weight will be provided during the workshop),
+- The Bnosac's family of R packages for computer vision requires Rtools, devtools, and should be installed from GitHub.
+-- Firstly, if you haven't installed Rtools yet, click on https://cran.r-project.org/bin/windows/Rtools/ and please download the installer based on your operation system version.
+
+
+## (iii-b) then, in R console, copy and run the following command
+
+writeLines('PATH="${RTOOLS40_HOME}\\usr\\bin;${PATH}"', con = "~/.Renviron")
+
+## (iii-c) finally, install devtools using
+
+install.packages("devtools")
+
+##         and then, take a sip of coffee or rather two while you are
+##         installing Bnosac's packages using
+
+devtools::install_github(
+    "bnosac/image",
+    subdir = "image.dlib",
+    build_vignettes = TRUE
+)
+
+devtools::install_github(
+    "bnosac/image",
+    subdir = "image.darknet",
+    build_vignettes = TRUE
+)
+
+devtools::install_github(
+    "bnosac/image",
+    subdir = "image.libfacedetection",
+    build_vignettes = TRUE
+)
+
+##         once you are done with that, please download the folders
+##         with files containing weights for some deep neural networks
+## 
+##  https://drive.google.com/drive/folders/1qNKJwmANHFJs-yAXdSQXz_Bc-tGsV6SY?usp=sharing
+## 
+##         and
+## 
+##   https://drive.google.com/drive/folders/1qNKJwmANHFJs-yAXdSQXz_Bc-tGsV6SY?usp=sharing
+## 
+##         somewhere to your local drive (details and proper paths to
+##         the files with weight will be provided during the workshop).
+
+Please see the attached code for details. You are also emphasized to download the folder with files containing weights for some deep neural networks somewhere to your local drive (information about proper paths to the files with weight will be provided during the workshop),
 
 https://drive.google.com/drive/folders/1qNKJwmANHFJs-yAXdSQXz_Bc-tGsV6SY?usp=sharing
 
