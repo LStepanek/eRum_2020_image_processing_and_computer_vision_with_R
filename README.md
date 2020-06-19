@@ -118,7 +118,7 @@ devtools::install_github(
   * [http://pjreddie.com/media/files/alexnet.weights](http://pjreddie.com/media/files/alexnet.weights)
   * [http://pjreddie.com/media/files/darknet.weights](http://pjreddie.com/media/files/darknet.weights)
   * [http://pjreddie.com/media/files/vgg-16.weights](http://pjreddie.com/media/files/vgg-16.weights)
-  * [http://pjreddie.com/media/files/extraction.weights](http://pjreddie.com/media/files/extraction.weights
+  * [http://pjreddie.com/media/files/extraction.weights](http://pjreddie.com/media/files/extraction.weights)
   * [http://pjreddie.com/media/files/extraction.weights](http://pjreddie.com/media/files/extraction.weights)
   * [http://pjreddie.com/media/files/darknet19_448.weights](http://pjreddie.com/media/files/darknet19_448.weights)
   * [https://github.com/pjreddie/darknet/blob/master/cfg/yolov2-tiny-voc.cfg](https://github.com/pjreddie/darknet/blob/master/cfg/yolov2-tiny-voc.cfg)
