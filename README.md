@@ -1,6 +1,7 @@
 # [eRum 2020] Image processing and computer vision with R
 
-This is a repository for purposes of a workshop _Image processing and computer vision with R_ at [eRum 2020](https://2020.erum.io/).
+This is a repository for purposes of a workshop _Image processing and computer vision with R_
+at [eRum 2020](https://2020.erum.io/).
 
 ---
 
@@ -72,7 +73,9 @@ BiocManager::install("EBImage")
 
 
 - The Bnosac's family of R packages for computer vision requires Rtools, devtools, and should be installed from GitHub.
-  * Firstly, if you haven't installed Rtools yet, click on https://cran.r-project.org/bin/windows/Rtools/ and please download the installer based on your operation system version.
+  * Firstly, if you haven't installed Rtools yet, click on
+  [https://cran.r-project.org/bin/windows/Rtools/](https://cran.r-project.org/bin/windows/Rtools/)
+  and please download the installer based on your operation system version.
   * Then, if you haven't customized your config file `.Renviron` yet, copy and run the following command in R console
 
 ```
