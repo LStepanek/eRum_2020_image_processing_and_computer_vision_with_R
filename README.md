@@ -75,8 +75,8 @@ BiocManager::install("EBImage")
 - The Bnosac's family of R packages for computer vision requires Rtools, devtools, and should be installed from GitHub.
   * Firstly, if you haven't installed Rtools yet, click on
   [https://cran.r-project.org/bin/windows/Rtools/](https://cran.r-project.org/bin/windows/Rtools/)
-  and please download the installer based on your operation system version.
-  * Then, if you haven't customized your config file `.Renviron` yet, copy and run the following command in R console
+  and please download the installer based on your operation system version. Install the Rtools.
+  * Then, if you haven't customized your config file `.Renviron` ever before, copy and run the following command in R console
 
 ```
 writeLines('PATH="${RTOOLS40_HOME}\\usr\\bin;${PATH}"', con = "~/.Renviron")
@@ -112,26 +112,17 @@ devtools::install_github(
 )
 ```
 
-- Once you are done with that, please download the files containing weights for some deep neural networks
-## 
-##  https://drive.google.com/drive/folders/1qNKJwmANHFJs-yAXdSQXz_Bc-tGsV6SY?usp=sharing
-## 
-##         and
-## 
-##   https://drive.google.com/drive/folders/1qNKJwmANHFJs-yAXdSQXz_Bc-tGsV6SY?usp=sharing
-## 
-##         somewhere to your local drive (details and proper paths to
-##         the files with weight will be provided during the workshop).
+- Once you are done with that, please download the files containing weights for some deep neural networks. Store them somewhere on your local drive. Make sure you are able to address the paths to them in your codes.
 
-Please see the attached code for details. You are also emphasized to download the folder with files containing weights for some deep neural networks somewhere to your local drive (information about proper paths to the files with weight will be provided during the workshop),
-
-https://drive.google.com/drive/folders/1qNKJwmANHFJs-yAXdSQXz_Bc-tGsV6SY?usp=sharing
-
-and
-
-https://drive.google.com/drive/folders/1qNKJwmANHFJs-yAXdSQXz_Bc-tGsV6SY?usp=sharing.
-
-We have checked the Bnosac's packages work appropriately on Windows computers. Linux systems are also recommended. We can't guarantee they will perform well on Macs.
+* [https://pjreddie.com/darknet/imagenet](https://pjreddie.com/darknet/imagenet)
+* [http://pjreddie.com/media/files/alexnet.weights](http://pjreddie.com/media/files/alexnet.weights)
+* [http://pjreddie.com/media/files/darknet.weights](http://pjreddie.com/media/files/darknet.weights)
+* [http://pjreddie.com/media/files/vgg-16.weights](http://pjreddie.com/media/files/vgg-16.weights)
+* [http://pjreddie.com/media/files/extraction.weights](http://pjreddie.com/media/files/extraction.weights
+* [http://pjreddie.com/media/files/extraction.weights](http://pjreddie.com/media/files/extraction.weights)
+* [http://pjreddie.com/media/files/darknet19_448.weights](http://pjreddie.com/media/files/darknet19_448.weights)
+ 
+We have checked that Bnosac's packages work appropriately on Windows computers. Linux systems are also recommended. We can't guarantee they will perform well on Macs.
 
 
 ---
