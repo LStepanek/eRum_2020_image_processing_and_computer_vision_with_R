@@ -75,20 +75,21 @@ BiocManager::install("EBImage")
   * Firstly, if you haven't installed Rtools yet, click on https://cran.r-project.org/bin/windows/Rtools/ and please download the installer based on your operation system version.
   * Then, if you haven't customized your config file `.Renviron` yet, copy and run the following command in R console
 
-> > > > ```
+```
 writeLines('PATH="${RTOOLS40_HOME}\\usr\\bin;${PATH}"', con = "~/.Renviron")
 ```
 
 to set the correct paths to the Rtools.
 
+* Finally, install devtools using
 
-## (iii-c) finally, install devtools using
-
+```
 install.packages("devtools")
+```
 
-##         and then, take a sip of coffee or rather two while you are
-##         installing Bnosac's packages using
+- Then, take a sip of coffee or rather two while you are installing Bnosac's packages using
 
+```
 devtools::install_github(
     "bnosac/image",
     subdir = "image.dlib",
@@ -106,9 +107,9 @@ devtools::install_github(
     subdir = "image.libfacedetection",
     build_vignettes = TRUE
 )
+```
 
-##         once you are done with that, please download the folders
-##         with files containing weights for some deep neural networks
+- Once you are done with that, please download the files containing weights for some deep neural networks
 ## 
 ##  https://drive.google.com/drive/folders/1qNKJwmANHFJs-yAXdSQXz_Bc-tGsV6SY?usp=sharing
 ## 
@@ -128,8 +129,6 @@ and
 https://drive.google.com/drive/folders/1qNKJwmANHFJs-yAXdSQXz_Bc-tGsV6SY?usp=sharing.
 
 We have checked the Bnosac's packages work appropriately on Windows computers. Linux systems are also recommended. We can't guarantee they will perform well on Macs.
-
-I hope the installation will work! I will email you a couple of minutes before the workshop with some slides and codes to be run on the workshop. See you soon via https://cesnet.zoom.us/j/94091554320?pwd=ZFNSWWxUa2hNTDVFVElKQk1BUkg4QT09!
 
 
 ---
