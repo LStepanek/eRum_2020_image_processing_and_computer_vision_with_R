@@ -77,7 +77,8 @@ BiocManager::install("EBImage")
 ```
 
 
-- The Bnosac's family of R packages for computer vision requires Rtools, devtools, and should be installed from GitHub.
+- The [Bnosac's family of R packages](https://github.com/bnosac/image)
+  for computer vision requires Rtools, devtools, and should be installed from GitHub.
   * Firstly, if you haven't installed Rtools yet, click on
   [https://cran.r-project.org/bin/windows/Rtools/](https://cran.r-project.org/bin/windows/Rtools/)
   and please download the installer based on your operation system version. Install the Rtools.
