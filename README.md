@@ -14,7 +14,7 @@ In this workshop, we will revisit available packages such as magick, imager, EBI
 
 ## How to prepare yourself before the workshop
 
-To make things even smoother, it would be great when you install the following R packages before the beginning of the workshop.
+To make things even smoother, it would be great when you install the following R packages before the beginning of the workshop. We are using lots of packages we are neither authors nor maintainers of, so all the credits go to their original authors!
 
 (i) The following packages,
 
@@ -35,7 +35,9 @@ invisible(
             "tesseract",
             "imager",
             "OpenImageR",
+            "BiocManager",
             "dlib",
+            "devtools",
             "remotes"
         ),
         function(my_package){
@@ -62,16 +64,11 @@ invisible(
 ```
 
 
-
 (ii) The package "EBImage" is stored on Bioconductor rather than CRAN, so we need to install it following a kinda different code,
 
-if(!requireNamespace("BiocManager", quietly = TRUE)){
-
-    install.packages("BiocManager")
-
-}
-
+```
 BiocManager::install("EBImage")
+```
 
 
 (iii) The Bnosac's family of R packages for computer vision requires Rtools40, devtools, and installation from GitHub. Please see the attached code for details. You are also emphasized to download the folder with files containing weights for some deep neural networks somewhere to your local drive (information about proper paths to the files with weight will be provided during the workshop),
