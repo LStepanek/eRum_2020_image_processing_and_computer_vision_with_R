@@ -15,7 +15,7 @@ In this workshop, we will revisit available packages such as magick, imager, EBI
 
 ## How to prepare yourself before the workshop
 
-To make things even smoother, it would be great when you install the following R packages before the beginning of the workshop. We are using lots of packages we are neither authors nor maintainers of, so all the credits go to their original authors!
+To make things even smoother, it would be great when you install the following R packages before the beginning of the workshop. <b>We are using lots of packages we are neither authors nor maintainers of, so all the credits go to their original authors!</b>
 
 - The following packages,
 
@@ -112,7 +112,7 @@ devtools::install_github(
 )
 ```
 
-- Once you are done with that, please download the files containing weights for some deep neural networks. Store them somewhere on your local drive. Make sure you are able to address the paths to them in your codes.
+- Once you are done with that, please download the files containing weights for some deep neural networks. Store them somewhere on your local drive. Make sure you know where you have stored to address the paths to them in your codes.
 
   * [https://pjreddie.com/darknet/imagenet](https://pjreddie.com/darknet/imagenet)
   * [http://pjreddie.com/media/files/alexnet.weights](http://pjreddie.com/media/files/alexnet.weights)
