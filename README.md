@@ -139,8 +139,7 @@ We have checked that Bnosac's packages work appropriately on Windows computers. 
 
 ## The second part of the workshop
 
-You can find the scripts for the second part of the workshop here, https://github.com/Kyoshido/workshop_e-Rum2020_darknet by [Jiri Novak](https://github.com/Kyoshido).
-
+Although the scripts for the second part of the workshop are included in this repo, you can find them also here, https://github.com/Kyoshido/workshop_e-Rum2020_darknet, by [Jiri Novak](https://github.com/Kyoshido).
 
 
 
