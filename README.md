@@ -137,6 +137,15 @@ We have checked that Bnosac's packages work appropriately on Windows computers. 
 
 ---
 
+## The second part of the workshop
+
+You can find the scripts for the second part of the workshop here, https://github.com/Kyoshido/workshop_e-Rum2020_darknet.
+
+
+
+
+---
+
 ## Tutors
 
 Lubomir Stepanek, MSc., M.D. is an assistant lecturer at the Department of Biomedical Statistics, Institute of Biophysics and Informatics, First Faculty of Medicine, Charles University, and tries to finish his Ph.D. somewhere around. He is absorbed by applied biostatistics, psychometrics, facial image processing, and computer vision.
