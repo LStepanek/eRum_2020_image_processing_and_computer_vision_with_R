@@ -132,7 +132,7 @@ devtools::install_github(
   * [https://github.com/pjreddie/darknet/blob/master/cfg/yolov2.cfg](https://github.com/pjreddie/darknet/blob/master/cfg/yolov2.cfg)
   * [https://pjreddie.com/media/files/yolov2.weights](https://pjreddie.com/media/files/yolov2.weights)
  
-We have checked that Bnosac's packages work appropriately on Windows computers. Linux systems are also recommended. We can't guarantee they will perform well on Macs.
+We have checked that Bnosac's packages work appropriately on Windows computers. Linux systems are also recommended. We can't guarantee the codes' executions will perform well on Macs.
 
 
 ---
