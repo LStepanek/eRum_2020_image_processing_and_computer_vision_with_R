@@ -1,0 +1,7 @@
+## YOLO trained on VOC .......................................................
+https://github.com/pjreddie/darknet/blob/master/cfg/yolov2-tiny-voc.cfg
+https://pjreddie.com/media/files/yolov2-tiny-voc.weights
+
+## YOLO trained on COCO .......................................................
+https://github.com/pjreddie/darknet/blob/master/cfg/yolov2.cfg
+https://pjreddie.com/media/files/yolov2.weights
