@@ -153,4 +153,8 @@ Lubomir Stepanek, MSc., M.D. is an assistant lecturer at the Department of Biome
 Jiri Novak, MSc. is a teaching assistant and a Ph.D. student at the Department of Economic Statistics, Faculty of Informatics and Statistics, University of Economics. He is interested in Statistical Disclosure Control and R programming.
 
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LStepanek/eRum_2020_image_processing_and_computer_vision_with_R/master/tutors.png", width="500">
+</p>
+
 
