@@ -148,7 +148,7 @@ Although the scripts for the second part of the workshop are included in this re
 
 ## Tutors
 
-Lubomir Stepanek, MSc., M.D. is an assistant lecturer at the Department of Biomedical Statistics, Institute of Biophysics and Informatics, First Faculty of Medicine, Charles University, and tries to finish his Ph.D. somewhere around. He is absorbed by applied biostatistics, psychometrics, facial image processing, and computer vision.
+[Lubomir Stepanek, MSc., M.D.](https://twitter.com/LubomirStepanek) is an assistant lecturer at the Department of Biomedical Statistics, Institute of Biophysics and Informatics, First Faculty of Medicine, Charles University, and tries to finish his Ph.D. somewhere around. He is absorbed by applied biostatistics, psychometrics, facial image processing, and computer vision.
 
 Jiri Novak, MSc. is a teaching assistant and a Ph.D. student at the Department of Economic Statistics, Faculty of Informatics and Statistics, University of Economics. He is interested in Statistical Disclosure Control and R programming.
 
