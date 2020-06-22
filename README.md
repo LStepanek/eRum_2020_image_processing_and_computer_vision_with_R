@@ -1,6 +1,7 @@
 # [eRum 2020] Image processing and computer vision with R
 
-This is a repository for purposes of a workshop _Image processing and computer vision with R_
+This is a repository for purposes of a workshop
+[_Image processing and computer vision with R_](https://2020.erum.io/program/workshops/)
 at [eRum 2020](https://2020.erum.io/).
 
 ---
